@@ -1,0 +1,10 @@
+configure_gitter_settings:
+  route: /configure/gitter
+  action: configureGitterSettings
+  parameters:
+    config_module: core
+    section: 15
+
+configure_gitter_project_settings:
+  route: /:project_key/module/gitter/settings
+  action: configureProjectSettings

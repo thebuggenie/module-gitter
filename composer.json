@@ -1,0 +1,23 @@
+{
+  "name": "thebuggenie/module-gitter",
+  "description": "Module for integrating The Bug Genie with Gitter, for automatically posting about issue updates and more",
+  "authors": [
+    {
+      "name": "Daniel Andre Eikeland",
+      "email": "zegenie@gmail.com"
+    }
+  ],
+  "support": {
+    "email": "support@thebuggenie.com",
+    "forum": "http://forum.thebuggenie.org",
+    "issues": "http://issues.thebuggenie.com/module-gitter"
+  },
+  "license": [
+    "MPL 2.0"
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  }
+}
